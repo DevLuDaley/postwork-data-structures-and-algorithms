@@ -10,7 +10,6 @@ if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: [-1, 2, 3, 5]");
   console.log("=>", selectionSort([3, -1, 5, 2]));
-  console.log("");
 
   console.log("Expecting: [-2, -1, 2, 4]");
   console.log("=>", selectionSort([-1, -2, 4, 2]));
