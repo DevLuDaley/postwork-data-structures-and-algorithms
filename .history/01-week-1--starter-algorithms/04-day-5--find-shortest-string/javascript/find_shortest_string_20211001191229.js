@@ -1,15 +1,13 @@
 function findShortestString(arr) {
-   const sorted = arr.sort((a,b) => a.length - b.length )
-   
-   console.log(["ccc", 5,"2", "aaa" , 4,"9",11, "bbb"].sort((a,b) => a - b ))
-   console.log(arr);
-   console.log(sorted);
-  return sorted[0]
-  // return arr[arr.length - 1]
+   arr.sort((a,b) => a-b )
+  return arr[arr.length-1]
   // type your code here
 }
 
-// if (require.main === module) {
+findShortestString(['aaa', 'a', 'bb', 'ccc'])
+console.log(findShortestString(['aaa', 'a', 'bb', 'ccc']))
+
+if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'a'");
   console.log("=>", findShortestString(['aaa', 'a', 'bb', 'ccc']));
@@ -25,7 +23,7 @@ function findShortestString(arr) {
   console.log("=>", findShortestString(['flower', 'juniper', 'lily', 'dadelion']));
 
   // BENCHMARK HERE
-// }
+}
 
 module.exports = findShortestString;
 

@@ -1,10 +1,10 @@
 function findShortestString(arr) {
-   const sorted = arr.sort((a,b) => a.length - b.length )
+   const sorted = arr.sort((a,b) => a - b )
    
    console.log(["ccc", 5,"2", "aaa" , 4,"9",11, "bbb"].sort((a,b) => a - b ))
    console.log(arr);
    console.log(sorted);
-  return sorted[0]
+  return sorted[sorted.length - 1]
   // return arr[arr.length - 1]
   // type your code here
 }

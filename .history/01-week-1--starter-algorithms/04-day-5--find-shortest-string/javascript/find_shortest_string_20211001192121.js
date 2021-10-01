@@ -16,13 +16,13 @@ function findShortestString(arr) {
 
   console.log("");
 
-  console.log("Expecting: 'hi'");
-  console.log("=>", findShortestString(['cat', 'hi', 'dog', 'an']));
+  // console.log("Expecting: 'hi'");
+  // console.log("=>", findShortestString(['cat', 'hi', 'dog', 'an']));
 
-  console.log("");
+  // console.log("");
 
-  console.log("Expecting: 'lily'");
-  console.log("=>", findShortestString(['flower', 'juniper', 'lily', 'dadelion']));
+  // console.log("Expecting: 'lily'");
+  // console.log("=>", findShortestString(['flower', 'juniper', 'lily', 'dadelion']));
 
   // BENCHMARK HERE
 // }
