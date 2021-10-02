@@ -1,0 +1,10 @@
+{
+    "jest.jestCommandLine": "yarn jest --"
+    // "jest.jestCommandLine": "yarn jest --"
+    // "jest.jestCommandLine": "yarn test test --"
+    // "jestTestExplorer.debugOutput": "integratedTerminal"
+    // ,"jest.jestCommandLine": "yarn test --"
+    // "jest.jestCommandLine": "yarn test"
+        // "jest.jestCommandLine": "node_modules/.bin/jest --config custom-config.js"
+    // "jest.jestCommandLine": "npm test --"
+}
