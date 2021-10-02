@@ -1,13 +1,12 @@
-// function recursiveCount(num) {
 function recursiveCount(num = 0) {
   // type your code here
-  if (num > 8){
-    console.log(num);
-    return num
+  const count = 10
+  if (num = 1){
+    return 1
   }
-  else {
-    console.log(num)
-    recursiveCount(num + 1);
+
+  else if (n < 1) {
+    recursiveCount(count)
   }
 }
 
