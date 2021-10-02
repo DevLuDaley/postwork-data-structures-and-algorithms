@@ -1,8 +1,8 @@
-const findFirstDuplicate = require('../find_first_duplicate');
+const findFirstDuplicate = require('../find_first_duplicate4');
 
 test('can handle an empty array', () => {
   expect(findFirstDuplicate([])).toBe(-1);
-}); 
+});
 
 test('can handle an array containing one element', () => {
   expect(findFirstDuplicate([4])).toBe(-1);
