@@ -4,7 +4,6 @@ function recursiveSearch(arr, target) {
     return false;
   }
   if (arr[0] == target) {
-    // arr[0];
     return true;
   }
   recursiveSearch(arr.slice(1), target);

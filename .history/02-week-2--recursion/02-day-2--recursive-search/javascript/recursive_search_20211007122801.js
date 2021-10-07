@@ -3,10 +3,6 @@ function recursiveSearch(arr, target) {
   if (arr.length == 0) {
     return false;
   }
-  if (arr[0] == target) {
-    // arr[0];
-    return true;
-  }
   recursiveSearch(arr.slice(1), target);
 }
 recursiveSearch([1, 22, 3], 22);

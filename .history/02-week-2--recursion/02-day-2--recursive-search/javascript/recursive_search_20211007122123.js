@@ -1,18 +1,22 @@
 function recursiveSearch(arr, target) {
-  // arr.slice(1);
-  if (arr.length == 0) {
-    return false;
-  }
-  if (arr[0] == target) {
-    // arr[0];
-    return true;
-  }
-  recursiveSearch(arr.slice(1), target);
+  // type your code here
+  // arr.forEach((n) => { // n == target? true:false
+  // for (const value of arr) { // n == target? true:false
+  //   // n;
+  //   if (value == target) {
+  //     value;
+  //     return true;
+  //   }
+
+  //   value;
+  //   return false;
+  recursiveSearch();
+  // }
 }
+// recursiveSearch([111, 45, 33, 111, 55, 298, 7, 88], 55);
 recursiveSearch([1, 22, 3], 22);
 // recursiveSearch([3, 2, 1], 4);
 // recursiveSearch([3, 2, 1], 3);
-
 function iterativeSearch(arr, target) {
   // type your code here
   // arr.forEach((n) => { // n == target? true:false
