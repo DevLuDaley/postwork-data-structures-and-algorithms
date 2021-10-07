@@ -1,6 +1,7 @@
 {
     "jest.jestCommandLine": "yarn jest --"
     // "jest.jestCommandLine": "yarn jest --"
+    // "jest.jestCommandLine": "yarn jest --"
     // "jest.jestCommandLine": "yarn test test --"
     // "jestTestExplorer.debugOutput": "integratedTerminal"
     // ,"jest.jestCommandLine": "yarn test --"
