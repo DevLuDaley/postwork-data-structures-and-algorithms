@@ -1,9 +1,9 @@
 function recursiveSearch(arr, target) {
   // arr.slice(1);
-  if (arr.length === 0) {
+  if (arr.length == 0) {
     return false;
   }
-  if (arr[0] === target) {
+  if (arr[0] == target) {
     // arr[0];
     return true;
   }

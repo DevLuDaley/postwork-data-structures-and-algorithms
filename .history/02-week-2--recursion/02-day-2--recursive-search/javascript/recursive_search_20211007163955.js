@@ -4,10 +4,10 @@ function recursiveSearch(arr, target) {
     return false;
   }
   if (arr[0] === target) {
-    // arr[0];
+    arr[0];
     return true;
   }
-  return recursiveSearch(arr.slice(1), target);
+  recursiveSearch(arr.slice(1), target);
 }
 recursiveSearch([1, 22, 3], 22);
 recursiveSearch([3, 2, 1], 4);

@@ -3,16 +3,16 @@ function recursiveSearch(arr, target) {
   if (arr.length === 0) {
     return false;
   }
-  if (arr[0] === target) {
+  if (arr[0] == target) {
     // arr[0];
     return true;
   }
-  return recursiveSearch(arr.slice(1), target);
+  recursiveSearch(arr.slice(1), target);
 }
 recursiveSearch([1, 22, 3], 22);
-recursiveSearch([3, 2, 1], 4);
-recursiveSearch([3, 2, 1], 3);
-recursiveSearch([7], 7);
+// recursiveSearch([3, 2, 1], 4);
+// recursiveSearch([3, 2, 1], 3);
+// recursiveSearch([7], 7);
 
 function iterativeSearch(arr, target) {
   // type your code here

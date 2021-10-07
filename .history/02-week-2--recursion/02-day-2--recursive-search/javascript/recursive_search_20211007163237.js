@@ -1,18 +1,20 @@
 function recursiveSearch(arr, target) {
-  // arr.slice(1);
-  if (arr.length === 0) {
+  arr.slice(1);
+  if (arr.length == 0) {
     return false;
   }
-  if (arr[0] === target) {
+  if (arr[0] == target) {
     // arr[0];
     return true;
   }
-  return recursiveSearch(arr.slice(1), target);
+  recursiveSearch(arr.slice(1), target);
 }
 recursiveSearch([1, 22, 3], 22);
-recursiveSearch([3, 2, 1], 4);
-recursiveSearch([3, 2, 1], 3);
-recursiveSearch([7], 7);
+// recursiveSearch([7], 7)
+  // recursiveSearch([1, 2, 3], 2)
+  expect(recursiveSearch([1, 2, 3], 3)
+// recursiveSearch([3, 2, 1], 4);
+// recursiveSearch([3, 2, 1], 3);
 
 function iterativeSearch(arr, target) {
   // type your code here

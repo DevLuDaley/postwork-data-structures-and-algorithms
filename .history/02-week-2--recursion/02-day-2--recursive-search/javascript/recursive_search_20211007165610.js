@@ -10,9 +10,9 @@ function recursiveSearch(arr, target) {
   return recursiveSearch(arr.slice(1), target);
 }
 recursiveSearch([1, 22, 3], 22);
-recursiveSearch([3, 2, 1], 4);
-recursiveSearch([3, 2, 1], 3);
-recursiveSearch([7], 7);
+// recursiveSearch([3, 2, 1], 4);
+// recursiveSearch([3, 2, 1], 3);
+// recursiveSearch([7], 7);
 
 function iterativeSearch(arr, target) {
   // type your code here
