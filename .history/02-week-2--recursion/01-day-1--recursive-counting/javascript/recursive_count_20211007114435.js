@@ -1,15 +1,13 @@
 // function recursiveCount(num) {
 function recursiveCount(num = 0) {
   // type your code here
-  if (num >= 9) {
+  if (num <= 9) {
     console.log(num);
     return num;
   }
 
-  console.log(num);
   recursiveCount(num + 1);
 }
-recursiveCount();
 
 // const talkToMyself = (n) => {
 //   if (n <= 0.5) {

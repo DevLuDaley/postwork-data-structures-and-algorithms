@@ -6,7 +6,6 @@ function recursiveCount(num = 0) {
     return num;
   }
 
-  console.log(num);
   recursiveCount(num + 1);
 }
 recursiveCount();

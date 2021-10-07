@@ -1,26 +1,9 @@
 // function recursiveCount(num) {
 function recursiveCount(num = 0) {
   // type your code here
-  if (num >= 9) {
-    console.log(num);
-    return num;
-  }
 
-  console.log(num);
-  recursiveCount(num + 1);
 }
-recursiveCount();
 
-// const talkToMyself = (n) => {
-//   if (n <= 0.5) {
-//     console.log(n);
-//     console.log('done');
-//     return n;
-//   } talkToMyself(n / 4);
-//   console.log('the sheep goes baaaaahhhhh');
-// };
-
-// talkToMyself(3);
 if (require.main === module) {
   recursiveCount();
 }

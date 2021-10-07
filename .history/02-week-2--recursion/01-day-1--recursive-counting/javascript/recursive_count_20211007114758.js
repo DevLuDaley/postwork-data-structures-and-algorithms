@@ -1,7 +1,7 @@
 // function recursiveCount(num) {
 function recursiveCount(num = 0) {
   // type your code here
-  if (num >= 9) {
+  if (num >= 8) {
     console.log(num);
     return num;
   }
