@@ -9,7 +9,7 @@ function fibonacciFirst(n) {
   const values = [0, 1];
   // for (const i of values) {
   for (let i = 0; i < n - 1; ++i) {
-    values.length;
+    values[values.length];
     values[values.length - 1];
     values[values.length - 2];
     values;

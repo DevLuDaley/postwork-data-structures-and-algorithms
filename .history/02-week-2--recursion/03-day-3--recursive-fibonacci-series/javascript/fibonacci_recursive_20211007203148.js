@@ -7,26 +7,14 @@ function fibonacciFirst(n) {
   }
 
   const values = [0, 1];
-  // for (const i of values) {
+
   for (let i = 0; i < n - 1; ++i) {
-    values.length;
-    values[values.length - 1];
-    values[values.length - 2];
-    values;
     values.push(values[values.length - 1] + values[values.length - 2]);
   }
 
   return values[values.length - 1];
 }
-// fibonacciFirst(0);
-// fibonacciFirst(1);
-// fibonacciFirst(2);
-// fibonacciFirst(3);
-// fibonacciFirst(4);
-// fibonacciFirst(5);
-fibonacciFirst(6);
-// fibonacciFirst(10);
-// fibonacciFirst(12);
+fibonacciFirst(10);
 
 if (require.main === module) {
   // add your own tests in here
